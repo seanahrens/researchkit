@@ -54,6 +54,15 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- // http://lists.evolt.org/archive/Week-of-Mon-20040202/154813.html -->
+    <script type="text/javascript"><!--
+    function gen_mail_to_link(lhs,rhs,subject)
+    {
+    document.write("<A HREF=\"mailto");
+    document.write(":" + lhs + "@");
+    document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>"); }
+    </SCRIPT>
+
     <!-- Document Title
     ============================================= -->
     <title>PatientKit - Turn your Study into a ResearchKit Study</title>
@@ -82,8 +91,15 @@
 
                     <div class="clear topmargin-sm"></div>
 
-                    <abbr title="Phone Number">Phone:</abbr> (415) 633-6234<br>
-                    <abbr title="Email Address">Email:</abbr> hello@patientkit.org
+                    <abbr title="Phone Number">Phone:</abbr><br/>
+                    <img src="images/emails/phone.png"/><br>
+                    <br/>
+
+                    <abbr title="Email Address">Email:</abbr>
+                    <p class="lead nobottommargin notopmargin"><img src="images/emails/workwithus-lt.png"/></p>
+                    <p class="lead nobottommargin"><img src="images/emails/press-lt.png"/></p>
+                    <p class="lead nobottommargin"><img src="images/emails/team-lt.png"/></p>
+
                 </div>
 
             </div>
@@ -200,7 +216,6 @@
                                     </span>
                                 </h1>
                             </div>
-                            <a href="#" class="button button-border button-circle" data-scrollto="#section-works" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Using ResearchKit</a>
 
                         </div>
 
@@ -227,13 +242,13 @@
 
                     <a class="button button-full button-light center tright bottommargin-lg" href="#contact-us">
                         <div class="container clearfix">
-                            We will turn your study into a ResearchKit study. <strong>Talk with us</strong> <i class="icon-caret-right" style="top:4px;"></i>
+                            We will turn your study into a ResearchKit study. <strong>Talk with us</strong> <i class="icon-caret-right" style="top:4px;">&nbsp;</i>
                         </div>
                     </a>
                 </div>
 
 
-                <div class="container clearfix topmargin-lg">
+                <div class="container clearfix topmargin-md">
 
                   <div class="heading-block center nobottommargin">
                     <h2>Put the Power in Patients' Hands</h2>
@@ -271,70 +286,75 @@
                 <div class="section clearfix notopmargin nobottommargin">
                     <div class="row">
 
-                        <div class="heading-block center">
-                            <h2>We will turn your study into a ResearchKit Study</h2>
+                        <div class="container clearfix">
+
+                            <div class="heading-block center">
+                                <h2>We will turn your study into a <span>ResearchKit</span> Study</h2>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-6 bottommargin">
+
+                                <div class="feature-box fbox-right topmargin" data-animate="fadeIn">
+                                    <div class="fbox-icon">
+                                        <a href="#"><i class="icon-line-heart"></i></a>
+                                    </div>
+                                    <h3>Enroll from the App Store</h3>
+                                    <p>Users will discover your app in the ResearchKit and health sections of the App Store, opening you to thousands of new enrollees.</p>
+                                </div>
+
+                                <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
+                                    <div class="fbox-icon">
+                                        <a href="#"><i class="icon-line-paper"></i></a>
+                                    </div>
+                                    <h3>In-App Eligiblity Screener</h3>
+                                    <p>Have users answer questions to determine their eligibility for the study before enrolling them.</p>
+                                </div>
+
+                                <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
+                                    <div class="fbox-icon">
+                                        <a href="#"><i class="icon-line-layers"></i></a>
+                                    </div>
+                                    <h3>Informed Consent and Signature</h3>
+                                    <p>Have people read your informed consent document and sign their agreement. Optionally, quiz people for their understanding.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 hidden-sm bottommargin center">
+                                <img src="images/mockups/screen.png" alt="iphone 2">
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 bottommargin">
+
+                                <div class="feature-box topmargin" data-animate="fadeIn">
+                                    <div class="fbox-icon">
+                                        <a href="#"><i class="icon-line-power"></i></a>
+                                    </div>
+                                    <h3>Gather data from iPhone's Health Sensors</h3>
+                                    <p>Using Apple's HealthKit, data from other health apps like weight, steps, and heartbeat, can enter into your study.</p>
+                                </div>
+
+                                <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
+                                    <div class="fbox-icon">
+                                        <a href="#"><i class="icon-line-check"></i></a>
+                                    </div>
+                                    <h3>Recurring and New Surveys</h3>
+                                    <p>Users are prompted to complete surveys and rewarded for completion.</p>
+                                </div>
+
+                                <div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
+                                    <div class="fbox-icon">
+                                        <a href="#"><i class="icon-bulb"></i></a>
+                                    </div>
+                                    <h3>Have users perform physiological tasks</h3>
+                                    <p>Perform tests on user's hand-eye coordination, voice, gait, or any other task the iphone sensors can help test.</p>
+                                </div>
+
+
+                            </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6 bottommargin">
-
-                            <div class="feature-box fbox-right topmargin" data-animate="fadeIn">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-heart"></i></a>
-                                </div>
-                                <h3>Enroll from the App Store</h3>
-                                <p>Users will discover your app in the ResearchKit and health sections of the App Store, opening you to thousands of new enrollees.</p>
-                            </div>
-
-                            <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-paper"></i></a>
-                                </div>
-                                <h3>In-App Eligiblity Screener</h3>
-                                <p>Have users answer questions to determine their eligibility for the study before enrolling them.</p>
-                            </div>
-
-                            <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-layers"></i></a>
-                                </div>
-                                <h3>Informed Consent and Signature</h3>
-                                <p>Have people read your informed consent document and sign their agreement. Optionally, quiz people for their understanding.</p>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-4 hidden-sm bottommargin center">
-                            <img src="images/mockups/screen.png" alt="iphone 2">
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 bottommargin">
-
-                            <div class="feature-box topmargin" data-animate="fadeIn">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-power"></i></a>
-                                </div>
-                                <h3>Gather data from iPhone's Health Sensors</h3>
-                                <p>Using Apple's HealthKit, data from other health apps like weight, steps, and heartbeat, can enter into your study.</p>
-                            </div>
-
-                            <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-check"></i></a>
-                                </div>
-                                <h3>Recurring and New Surveys</h3>
-                                <p>Users are prompted to complete surveys and rewarded for completion.</p>
-                            </div>
-
-                            <div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-bulb"></i></a>
-                                </div>
-                                <h3>Have users perform physiological tasks</h3>
-                                <p>Perform tests on user's hand-eye coordination, voice, gait, or any other task the iphone sensors can help test.</p>
-                            </div>
-
-
-                        </div>
                     </div>
                 </div>
 
@@ -548,7 +568,12 @@
                         <div class="col-md-4">
 
                             <div class="widget clearfix">
-                                <h4>Site Links</h4>
+                                <h4>Contact</h4>
+                                <p class="lead nobottommargin notopmargin"><img src="images/emails/workwithus.png"/></p>
+                                <p class="lead nobottommargin"><img src="images/emails/press.png"/></p>
+                                <p class="lead nobottommargin"><img src="images/emails/team.png"/></p>
+
+<!--                                 <h4>Site Links</h4>
 
                                 <ul class="list-unstyled footer-site-links nobottommargin">
                                     <li><a href="#" data-scrollto="#wrapper" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Top</a></li>
@@ -557,7 +582,7 @@
                                     <li><a href="#" data-scrollto="#section-services" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Services</a></li>
                                     <li><a href="#" data-scrollto="#section-blog" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Blog</a></li>
                                     <li><a href="#" data-scrollto="#section-contact" data-easing="easeInOutExpo" data-speed="1250" data-offset="70">Contact</a></li>
-                                </ul>
+                                </ul> -->
                             </div>
 
                         </div>
@@ -588,10 +613,10 @@
                         <div class="col-md-4">
 
                             <div class="widget clearfix">
-                                <h4>Contact</h4>
+                                <h4>Address</h4>
 
-                                <p class="lead">3491 20th St,<br>San Francisco, CA 94107</p>
-
+                                <p class="lead">PatientKit<br>3491 20th St,<br>San Francisco, CA 94107</p>
+<!--
                                 <div class="center topmargin-sm">
                                     <a href="#" class="social-icon inline-block noborder si-small si-facebook" title="Facebook">
                                         <i class="icon-facebook"></i>
@@ -609,7 +634,7 @@
                                         <i class="icon-pinterest"></i>
                                         <i class="icon-pinterest"></i>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
 
                         </div>
